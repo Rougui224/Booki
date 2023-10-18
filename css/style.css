@@ -617,10 +617,10 @@ footer section {
     }
   
     .groupInformation {
-        height: 460px;
+        height: auto;
         width: 100%;
         margin-top: 50px;
-        padding: 0 50PX;
+        padding: 0 20PX;
         box-sizing: border-box;
     }
 
@@ -687,16 +687,19 @@ footer section {
     }
 
     .groupInformation_filterBar li {
-        width: 47%;
+        font-size: 14px;
+        width: 40%;
+
+        flex-grow: 2;
     }
     .groupInformation_filterBar li:nth-of-type(2) {
-        width: 47%;
+        width: 40%;
     }
     .groupInformation_filterBar li:nth-of-type(3) {
-        width: 47%;
+        width: 40%;
     }
     .groupInformation_filterBar li:nth-of-type(4) {
-        width: 47%;
+        width: 40%;
     }
 
     .groupInformation_infoBar {
@@ -709,12 +712,15 @@ footer section {
     /* *****Toutes les cartes****** */
     .hebergements-and-populaires {
         flex-direction: column-reverse;
-        height: 2130.5px;
+    }
+
+    .section-title {
+        font-size: 17px;
     }
 
     .hebergements-and-populaires section {
         border-radius: 0px;
-        padding: 30px 50px;
+        padding: 30px 20px;
         box-sizing: border-box;
     }
 
@@ -751,7 +757,7 @@ footer section {
     .activites {
         width: 100%;
         height: 1020px;
-        padding: 30px 50px;
+        padding: 30px 20px;
         box-sizing: border-box;
     }
 
@@ -776,7 +782,7 @@ footer section {
         flex-direction: column;
         gap: 50px;
 
-        padding: 30px 50px;
+        padding: 30px 20px;
         box-sizing: border-box;
     }
 
