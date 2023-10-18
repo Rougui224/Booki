@@ -751,6 +751,10 @@ footer section {
         width: 100%;
     }
 
+    article.hebergements_cardsGroup_card.card {
+        box-sizing: border-box;
+    }
+
 
     /* Activités */
 
