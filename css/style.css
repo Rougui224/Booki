@@ -687,8 +687,8 @@ footer section {
     }
 
     .groupInformation_filterBar li {
-        font-size: 14px;
-        width: 40%;
+        font-size: 17px;
+        width: 45%;
 
         flex-grow: 2;
     }
@@ -696,7 +696,7 @@ footer section {
         width: 40%;
     }
     .groupInformation_filterBar li:nth-of-type(3) {
-        width: 40%;
+        width: 44%;
     }
     .groupInformation_filterBar li:nth-of-type(4) {
         width: 40%;
