@@ -669,8 +669,6 @@ footer section {
     .fa-magnifying-glass {
         position: relative;
         z-index: 2;
-        top: 16.5px;
-        right: 17.9px;
     }
 
     .groupInformation_filterBar {
