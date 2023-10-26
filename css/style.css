@@ -49,7 +49,6 @@ header ul {
     width: 328.6px;
     height: 100%;
 
-    /* padding: 0 25px; */
     margin: 0px;
 
     display: flex;
@@ -159,6 +158,20 @@ a {
 }
 
 ::placeholder {
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+}
+/* Pour FireFox */
+
+::-moz-placeholder {
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+}
+  
+/* Pour Internet Explorer */
+input:-ms-input-placeholder {
     font-weight: bold;
     color: black;
     padding-left: 20px;
